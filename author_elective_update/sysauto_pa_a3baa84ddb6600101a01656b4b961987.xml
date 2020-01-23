@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysauto_pa">
+    <sysauto_pa action="DELETE">
+        <active>true</active>
+        <benchmarking>false</benchmarking>
+        <collect>scores</collect>
+        <condition/>
+        <conditional>false</conditional>
+        <description>Data collector for NeedIt Historical data. Collects 6 months of data including the current month.</description>
+        <kill_job>true</kill_job>
+        <name>NeedIt Historical Data</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-01-22 23:16:06</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <score_fixed_end>00000000</score_fixed_end>
+        <score_fixed_start>00000000</score_fixed_start>
+        <score_operator>relative</score_operator>
+        <score_relative_end>1</score_relative_end>
+        <score_relative_end_interval>days</score_relative_end_interval>
+        <score_relative_start>6</score_relative_start>
+        <score_relative_start_interval>months</score_relative_start_interval>
+        <sys_class_name>sysauto_pa</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 23:17:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a3baa84ddb6600101a01656b4b961987</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>NeedIt Historical Data</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysauto_pa_a3baa84ddb6600101a01656b4b961987</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 23:19:27</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_pa>
+    <sys_translated_text action="DELETE" query="documentkey=a3baa84ddb6600101a01656b4b961987"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b182ae26dbdcfb0007072f17d49619ef</instance_id>
+        <instance_name>dev76726</instance_name>
+        <name>sysauto_pa_a3baa84ddb6600101a01656b4b961987</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysauto_pa"><sysauto_pa action="INSERT_OR_UPDATE"><active>true</active><benchmarking>false</benchmarking><collect>scores</collect><condition/><conditional>false</conditional><description>Data collector for NeedIt Historical data. Collects 6 months of data including the current month.</description><kill_job>true</kill_job><name>NeedIt Historical Data</name><run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as><run_as_tz/><run_dayofmonth>1</run_dayofmonth><run_dayofweek>1</run_dayofweek><run_period/><run_start>2020-01-22 23:16:06</run_start><run_time>1970-01-01 08:00:00</run_time><run_type>on_demand</run_type><score_fixed_end>00000000</score_fixed_end><score_fixed_start>00000000</score_fixed_start><score_operator>relative</score_operator><score_relative_end>1</score_relative_end><score_relative_end_interval>days</score_relative_end_interval><score_relative_start>6</score_relative_start><score_relative_start_interval>months</score_relative_start_interval><sys_class_name>sysauto_pa</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-22 23:17:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a3baa84ddb6600101a01656b4b961987</sys_id><sys_mod_count>2</sys_mod_count><sys_name>NeedIt Historical Data</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sysauto_pa_a3baa84ddb6600101a01656b4b961987</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-22 23:19:27</sys_updated_on><upgrade_safe>false</upgrade_safe></sysauto_pa><sys_translated_text action="delete_multiple" query="documentkey=a3baa84ddb6600101a01656b4b961987"/></record_update>]]></payload>
+        <payload_hash>1080954930</payload_hash>
+        <record_name>NeedIt Historical Data</record_name>
+        <reverted_from/>
+        <source>b531d80ddbe200101a01656b4b9619a9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 23:19:27</sys_created_on>
+        <sys_id>ec8b608ddb6600101a01656b4b961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fcf8db2730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 23:19:27</sys_updated_on>
+        <type>Scheduled Data Collection</type>
+        <update_guid>688b608d55660010f5eab8ab77c96067</update_guid>
+        <update_guid_history>688b608d55660010f5eab8ab77c96067:1080954930,857ba84da9660010f28352bd74ae0583:-686109579,f1fae40d81660010727c6c0a577b59c0:-1584740522</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 23:19:44</sys_created_on>
+        <sys_db_object display_value="" name="sysauto_pa">sysauto_pa</sys_db_object>
+        <sys_id>06b922a80fcc4c6480f2beb4f3e15d10</sys_id>
+        <sys_metadata>a3baa84ddb6600101a01656b4b961987</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Historical Data</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sysauto_pa_a3baa84ddb6600101a01656b4b961987</sys_update_name>
+        <sys_update_version display_value="sysauto_pa_a3baa84ddb6600101a01656b4b961987">ec8b608ddb6600101a01656b4b961967</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 23:19:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
